@@ -107,11 +107,11 @@ button:active{background-color: #443729;}
     max-width: 325px;
     grid-area: i;
     box-shadow: 1px 1px 3px black;
-    border-radius: 5px;
+    border-radius: 55px;
 }
 
 .result>.label{
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .result>.l-addr{

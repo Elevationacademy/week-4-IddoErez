@@ -46,15 +46,19 @@
               <div class="price">{{price}}</div>
               <div  class="1-rooms">Rooms:</div>
               <div  class="rooms">{{rooms}}</div>
+              
          {{#if parking}}
-             <div class="1-park">Parking Available</div>
+             <div class="1-park"><i class="fas fa-parking"></i></div>
         {{/if}}
         {{#if immediate}}
           <div class="l-immediate">Immediate Entrance Possible</div>
-              {{contactDetails.name}}
-              {{contactDetails.email}}
-
+          <div>
+                 {{contactDetails.name}}
+             <br>    
+            <br> {{contactDetails.email}}
+        </div>
                {{/if}}
+           </div>    
          {{/each}}
           </div>
       </script>
